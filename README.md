@@ -455,9 +455,6 @@ pip install notebook pandas numpy matplotlib seaborn scikit-learn
 **❓ ¿Encontraron outliers?**
 > Los buscamos con la regla IQR y con boxplots en las 11 variables numéricas, y no apareció ninguno. Por eso no recortamos ni borramos valores.
 
-**❓ ¿En qué se diferencia de la limpieza del notebook `proCoders`?**
-> Aquel rellenaba con la mediana también el `stress_level` faltante, que es la variable objetivo. Eso mete 140 respuestas falsas, todas iguales (53.8). En esta versión esas filas se eliminan y no se rellena ningún valor.
-
 ### Sobre el modelo
 
 **❓ ¿Por qué no usaron `burnout_level` para predecir?**
